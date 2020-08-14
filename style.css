@@ -1,17 +1,32 @@
 .grid{
-    width: 600px;
-    height: 600px;
+    background-color: black;
+
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    height: 610px;
+    margin:auto;
+    width: 610px;
+
 }
 .grid div{
-    width: 200px;
+    background-color: white;
     height: 200px;
-    background-color: blue;
+    margin-bottom: 5px;
+    width: 200px;
+
 }
 .playerX{
-
+background-image: url("x.png");
 }
 .playerO{
+background-image: url("o.png");
+}
 
+h1,h3{
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
 }

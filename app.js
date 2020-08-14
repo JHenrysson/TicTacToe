@@ -3,8 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const squares = document.querySelectorAll('.grid div')
     const playerDisplay= document.querySelector('#player')
 
-// player assignment
-    let currentPlayer ='PlayerX'
+    let currentPlayer ='playerX'
 
 //event listener to each square in the grid
 squares.forEach(squares => {
