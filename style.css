@@ -1,6 +1,8 @@
+body{
+    background-color: aliceblue;
+}
 .grid{
     background-color: black;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -10,7 +12,7 @@
 
 }
 .grid div{
-    background-color: white;
+    background-color: aliceblue;
     height: 200px;
     margin-bottom: 5px;
     width: 200px;
